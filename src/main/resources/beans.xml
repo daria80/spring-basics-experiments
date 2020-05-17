@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="userA" class="com.github.daria80.example1.User">
+        <property name="name" value="Daria"/>
+        <property name="age" value="891237000"/>
+    </bean>
+
+
+    <bean id="userB" class="com.github.daria80.example1.User">
+        <property name="name" value="Sherzod"/>
+        <property name="age" value="852015600"/>
+    </bean>
+
+    <bean id="restaurant" class="com.github.daria80.example1.services.BookServiceImpl"/>
+
+</beans>
