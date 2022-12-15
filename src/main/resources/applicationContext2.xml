@@ -12,4 +12,11 @@
           scope="singleton">
     </bean>
 
+    <bean id = "myDog"
+          class = "spring_introduction.Dog"
+          scope="prototype"
+          init-method="init"
+          destroy-method="destroy">
+    </bean>
+
 </beans>
